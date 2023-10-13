@@ -1,0 +1,309 @@
+body {
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    border: 1px solid lightgrey;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text::before {
+  content: '<';
+ 
+}
+
+.text::after {
+  content: '>';
+}
+
+.text {
+    color: #303030;
+    margin-top: 45px;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.menu {
+    font-size: 42px;
+    margin-top: 40px;
+}
+
+#specialbrac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 22px;
+    margin-right: 38px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.firstpart {
+    border: 1px solid black;
+    margin-top: 40px;
+    background: #303030;
+}
+
+.secondpart{
+    border: 1px solid #2E2E2E;
+    background: #2E2E2E;
+    margin-bottom: 0px;
+}
+
+.thirdpart {
+    border: 1px solid #141414;
+    margin-top: 0px;
+    background: #141414;
+}
+
+#imgpart {
+    margin-bottom: 60px;
+}
+
+
+
+.h2-1 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+}
+
+
+.h2-2 {
+    padding-top: 65px;
+    padding-bottom: 35px;
+    margin-top: 0px;
+    color: #14CFAE;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    line-height: 60px;
+    font-size: 60px;
+}
+
+.h2-2::after {
+    content: "";
+    position: absolute;
+    bottom: -123px; 
+    left: 50%;
+    width: 100px;
+    border-bottom: 1.5px solid #FFFFFF; 
+    transform: translateX(-50%); 
+}
+
+.h3-01 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.h3-02 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.h3-03 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.h2-3 {
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;     /*font: normal normal 900 60px/60px Source Sans Pro;*/
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.h2-4 {
+    padding-top: 90px;
+    padding-bottom: 15px;
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #FFFFFF;
+    
+   
+}
+
+.h4-3 {
+    color: #16E0BD;
+   margin-top: 10px;
+   margin-bottom: 50px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 24px;
+}
+
+img {
+    margin-bottom: -4px;
+    margin-left: 15px;
+    margin-right: 0px;
+   
+}
+
+.h3-2 {
+    color: #16E0BD;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-family:  'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.icon {
+    color: #16E0BD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-bottom: 72px;
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#first{
+    font-family: 'Source Sans Pro', sans-serif;    /*u can use this also normal normal 300 48px/48px Source Sans Pro;*/
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px; 
+    color: #303030;
+}
+
+#second {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px; 
+    color: #303030;
+}
+
+.h3-1 {
+    background: #16E0BD;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    border: 1px solid  #16E0BD;
+    color: #303030;
+    font-family: 'Source Code Pro', monospace;  /*font: normal normal normal 24px/24px Source Code Pro;*/
+    font-size: 24px;
+    list-style: 24px;
+}
+
+#par-0 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;  /* Adjust line height based on your font size */
+    max-height: 120px; /* Set a maximum height to represent 5 lines */
+    overflow: hidden;
+}
+
+#par-1 {
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    color: #303030;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18.3px;
+    line-height: 24px;
+    
+}
+
+#par-2 {
+    color: #303030;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18.3px;
+    line-height: 24px;  /* Adjust line height based on your font size */
+    max-height: 144px;
+    overflow: hidden;
+    
+}
+
+
+.h4-1 {
+    border: 1px solid #16E0BD;
+    background: #16E0BD;  
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    line-height: 48px;
+    color: #1C4B43;
+}
+
+.h4-2 {
+    border: 1px solid black;
+    background: #16E0BD;
+    margin-left: 61px;
+    margin-right: 52px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+    font-family: 'Source Sans Pro', sans-serif;   /*font: normal normal 900 16px/16px Source Sans Pro;*/
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+   
+
+}
+
+#firstpic {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.5);
+    /* horizontal offset: 05px;
+    vertical offset:10px;
+    blur radius: 30px; */
+    
+}
+
+#secondpic {
+    margin-left: 10px;
+    margin-right: 0px;
+}
