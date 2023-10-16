@@ -85,7 +85,7 @@ body {
 .h2-2::after {
     content: "";
     position: absolute;
-    bottom: -123px; 
+    height: 100px;
     left: 50%;
     width: 100px;
     border-bottom: 1.5px solid #FFFFFF; 
